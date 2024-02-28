@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+     *{
+        margin: 0;
+        padding: 0;
+        border: 0 ;
+
+    }
+       
+      body {
+          background-color: #252525;
+      }
+        header  {
+            padding: 32px;
+            border-bottom: 1px solid #333;
+            background-color: rgba(0 ,0,0,0.1);
+        }
+        header div {
+          text-align: center; /*Alinhamento no meio do header */
+        }
+        header div a {
+            color: white; /*a cor do texto*/
+            font-size: 20px; /*tamanaho da fonte*/
+            line-height: 30px; /*espaçamento da linha do texto*/
+            margin: 0 16px;/*espaçamento entre os textos*/
+            text-decoration: none;/*retirar decoração do texto*/
+            font-family: "Bebas Neue", sans-serif;
+            
+       }
+   header div a:hover{  /*seleção do modo quand o mous passar por cima "hover"*/
+      color: #7741F0; /* mudar apra cor verde*/
+      transition: color 700ms; /*e fazer um transição de cor que dur 700ms*/
+        
+     }
