@@ -27,7 +27,7 @@
             
        }
    header div a:hover{  /*seleção do modo quand o mous passar por cima "hover"*/
-      color: #7741F0; /* mudar apra cor verde*/
+      color: #0944e6; /* mudar apra cor verde*/
       transition: color 700ms; /*e fazer um transição de cor que dur 700ms*/
         
      }
