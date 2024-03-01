@@ -19,7 +19,7 @@
         }
         header div a {
             color: white; /*a cor do texto*/
-            font-size: 20px; /*tamanaho da fonte*/
+            font-size: 24px; /*tamanaho da fonte*/
             line-height: 30px; /*espaçamento da linha do texto*/
             margin: 0 16px;/*espaçamento entre os textos*/
             text-decoration: none;/*retirar decoração do texto*/
@@ -31,3 +31,31 @@
       transition: color 700ms; /*e fazer um transição de cor que dur 700ms*/
         
      }
+#box {
+  text-align: center;/*Alinhamento no meio do body*/
+  padding: 32px; /* Distância entre outros elementos*/
+}
+
+#box img{
+   border-radius: 50%; /*Adiciona uma borda redonda a imagem*/
+   border: 5px solid #0954e6; /* Adiciona uma cor a borda da imagem*/
+   margin-bottom: 32px; /* Distância da margem iferior de outros elementos*/
+}
+
+#box h1 {
+  font-size: 42px;/*Tamanho da fonte*/
+  line-height: 52px;/*Espaçamento da linha do texto*/
+  font-weight: bold;/* tipo da fonte*/
+}
+#box h2 {
+  font-size: 24px;/*tamanho da fonte*/
+  line-height: 34px;/*Espaçamento da linha do texto*/
+  font-weight: normal; /*tipo da fonte*/
+  margin-top: 8px; /* distância da margem auperior dos outros elementos*/
+  opacity: 0.8; /*transparência do elemento*/
+}
+#box p {
+  max-width: 500px; /*tamanho maximo do elemento na largura*/
+  margin: 32px  auto;
+
+}
