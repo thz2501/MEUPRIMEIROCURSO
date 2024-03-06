@@ -11,7 +11,7 @@
       }
         header  {
             padding: 32px;
-            border-bottom: 1px solid #333;
+            border-bottom: 3px solid var(--subcor);
             background-color: rgba(0 ,0,0,0.1);
         }
         header div {
@@ -56,6 +56,11 @@
 }
 #box p {
   max-width: 500px; /*tamanho maximo do elemento na largura*/
-  margin: 32px  auto;
+  margin: 32px  auto;/*Distãncia das margens dos outros elementos*/
+  font-size: 32px;/*tamanho da fonte*/
+  line-height: 34px;/*espaçament da linha do texto*/
 
 }
+:root{ /*iniciando a variável*/
+  --subcor: #57a615; /*nomeando a variável de --subcor e guardando uma cor nela.*/
+} /*fechando o bloco da variável root*/
