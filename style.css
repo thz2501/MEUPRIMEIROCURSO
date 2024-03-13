@@ -15,7 +15,7 @@
             background-color: rgba(0 ,0,0,0.1);
         }
         .links {
-          text-align: center; /*Alinhamento no meio do header */
+            text-align: center; /*Alinhamento no meio do header */
         }
         .links  a {
             color: white; /*a cor do texto*/
@@ -26,10 +26,10 @@
             font-family: "Bebas Neue", sans-serif;
             
        }
-   .links a:hover{  /*seleção do modo quand o mous passar por cima "hover"*/
-      color: #0944e6; /* mudar apra cor verde*/
-      transition: 700ms; /*e fazer um transição de cor que dur 700ms*/
-      font-size: 23px;
+        .links a:hover{  /*seleção do modo quand o mous passar por cima "hover"*/
+            color: #0944e6; /* mudar apra cor verde*/
+            transition: 700ms; /*e fazer um transição de cor que dur 700ms*/
+            font-size: 23px;
         
      }
 #box {
@@ -65,3 +65,24 @@
 :root{ /*iniciando a variável*/
   --subcor: #57a615; /*nomeando a variável de --subcor e guardando uma cor nela.*/
 } /*fechando o bloco da variável root*/
+#box h1 {
+  padding: 4px;
+}
+#box h2 {
+  padding: 10px;
+}
+#box p:hover {
+  font-size: 23px;
+}
+#box  a {
+  color: var(--subcor);
+  transition: 600ms;
+}
+#linksFooter {
+  padding-top: 32px;
+}
+#linksfooter a {
+  padding-top: 32px;
+  padding-bottom: 8px;
+  border-bottom: 3px solid var(--subcor);
+}
