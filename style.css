@@ -14,10 +14,10 @@
             border-bottom: 3px solid var(--subcor);
             background-color: rgba(0 ,0,0,0.1);
         }
-        header div {
+        .links {
           text-align: center; /*Alinhamento no meio do header */
         }
-        header div a {
+        .links  a {
             color: white; /*a cor do texto*/
             font-size: 24px; /*tamanaho da fonte*/
             line-height: 30px; /*espaçamento da linha do texto*/
@@ -26,9 +26,10 @@
             font-family: "Bebas Neue", sans-serif;
             
        }
-   header div a:hover{  /*seleção do modo quand o mous passar por cima "hover"*/
+   .links a:hover{  /*seleção do modo quand o mous passar por cima "hover"*/
       color: #0944e6; /* mudar apra cor verde*/
-      transition: color 700ms; /*e fazer um transição de cor que dur 700ms*/
+      transition: 700ms; /*e fazer um transição de cor que dur 700ms*/
+      font-size: 23px;
         
      }
 #box {
