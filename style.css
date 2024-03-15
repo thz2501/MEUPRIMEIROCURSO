@@ -26,7 +26,7 @@
             font-family: "Bebas Neue", sans-serif;
             
        }
-        .links a:hover{  /*seleção do modo quand o mous passar por cima "hover"*/
+        .links a:hover{  /*seleção do modo quando o mouse passar por cima "hover"*/
             color: #0944e6; /* mudar apra cor verde*/
             transition: 700ms; /*e fazer um transição de cor que dur 700ms*/
             font-size: 23px;
@@ -63,16 +63,13 @@
 
 }
 :root{ /*iniciando a variável*/
-  --subcor: #57a615; /*nomeando a variável de --subcor e guardando uma cor nela.*/
+  --subcor: #0954e6; /*nomeando a variável de --subcor e guardando uma cor nela.*/
 } /*fechando o bloco da variável root*/
 #box h1 {
   padding: 4px;
 }
 #box h2 {
   padding: 10px;
-}
-#box p:hover {
-  font-size: 23px;
 }
 #box  a {
   color: var(--subcor);
