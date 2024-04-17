@@ -83,3 +83,37 @@
   padding-bottom: 8px;
   border-bottom: 3px solid var(--subcor);
 }
+/* === cards ===*/
+
+.cards {
+  max-width: 800px;
+  margin: 20px auto;
+}
+.card{
+  background-color: purple;
+} 
+
+
+.card_image img {
+  width: 100%;
+}
+.card_content,.card_info{
+  padding: 18px;
+}
+.card_info{
+  display: grid; /*inicia a organização em formato de display, e o grid tem formato de tabela*/
+  grid-template-columns: 1fr 1fr;/* diz quantas colunas esse grid (tabela) vai possuir*/
+}
+.card_price{
+  background-color: purple;
+  filter: brightness(90%);
+  padding: 5px 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+.modal {
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  margin: 5vh auto;
+}
